@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,57 @@ body {
 }
 
 /* Write all remaining styles here */
+
+@@font-face {
+	font-family: baskerville;
+	src: url(font/Baskerville.ttc);
+}
+
+#title {
+	font: 5em 'baskerville';
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
+	padding: 15px 0 30px;
+}
+
+h1, h2 {
+	color: #738285;
+}
+
+#copyright {
+	text-align: right;
+	font-size: .8em;
+}
+
+a:link img, a:visited img, a:active img {
+	border: 5px solid #d2d2d2;
+	padding: 0;
+}
+
+a:hover img {
+	transition: border-color 0.3s linear;
+	border: 5px solid #999;
+}
+
+.border {
+	border: 5px solid #d2d2d2;
+
+}
+
+a:link, a:active, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/**
+.logo-link a:active, .logo-link a:visited .logo-link a:link{
+	border: 5px solid #d2d2d2;
+}
+
+.logo-link a:hover {
+	border: 5px solid #bbb;
+}
+**/
